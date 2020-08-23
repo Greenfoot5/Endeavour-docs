@@ -1,3 +1,5 @@
 site_name: GreenBOT docs
 theme:
-	name: material
+  name: material
+  primary: green
+  accent: teal
