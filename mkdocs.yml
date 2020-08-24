@@ -1,6 +1,10 @@
-site_name: GreenBOT docs
+site_name: Endeavour docs
 theme:
   name: material
   palette:
     primary: green
     accent: teal
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
