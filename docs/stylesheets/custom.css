@@ -1,0 +1,37 @@
+:root {
+
+    /*Main primary colour used acorss the site.*/
+    --md-primary-fg-color:  #28c074;
+    --md-primary-fg-color--light:   #3dff6e;
+    --md-primary-fg-color--dark:    #10908e;
+    --md-primary-bg-color:          hsla(0, 0%, 100%, 1);
+    --md-primary-bg-color--light:   hsla(0, 0%, 100%, 0.7);
+
+    /* Main text colour */
+    --md-default-fg-color:  #faffff;
+    --md-default-fg-color--light:   #fff;
+    --md-default-fg-color--ligher:  #fff;
+    --md-default-fg-color--lightest:#fff;
+
+    /* Background colour */
+    --md-default-bg-color:  #052137;
+    --md-default-bg-color--light:   #123c4a;
+    --md-default-bg-color--lighter: #123c4a;
+    --md-default-bg-color--lightest:#123c4a;
+
+    /* Link hover colour */
+    --md-accent-fg-color:   #3dff6e;
+    --md-accent-fg-color--transparent:   #3dff6e19;
+
+    --md-code-fg-color:     #10908e;
+    --md-code-bg-color:     #10908e;
+
+    --md-admonition-fg-color:          #123343;
+    --md-admonition-bg-color:          #132243;
+
+    --md-footer-fg-color:              #10908e;
+    --md-footer-fg-color--light:       #10908eA4;
+    --md-footer-fg-color--lighter:     #10908e52;
+    --md-footer-bg-color:              #1a466b;
+    --md-footer-bg-color--dark:        #1a466b;
+}

@@ -1,4 +1,6 @@
-# Welcome to the Endeavour documentation!
+# Welcome!
+
+This is the documentation site for @Endeavour#7425
 
 !!! danger "Site WIP"
     Endeavour is the rewrite of GreenBOT.
