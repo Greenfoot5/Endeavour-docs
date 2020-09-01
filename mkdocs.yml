@@ -1,10 +1,53 @@
-site_name: Endeavour docs
+site_name: Endeavour Wiki
+
 theme:
   name: material
+  favicon: Images/alpha-e-circle.svg
+  icon:
+    logo: material/alpha-e-circle
+    repo: fontawesome/brands/github-square
+  # Temporary using site colours until css is completed.
   palette:
+    scheme: slate
     primary: green
     accent: teal
+  custom_dir: overrides
+    
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - pymdownx.critic
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+
+# Used when we've sorted out the css of the site. Several issues with dark on dark currently.
+#extra_css:
+#  - stylesheets/custom.css
+
+extra:
+  social:
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/MVzHqdm
+  - icon: fontawesome/brands/github
+    link: https://github.com/greenfoot5/Endeavour
+
+repo_url: https://github.com/greenfoot5/Endeavour-docs
+repo_name: Greenfoot5/Endeavour-wiki
+
+plugins:
+  - git-revision-date
