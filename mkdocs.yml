@@ -2,6 +2,7 @@ site_name: Endeavour Wiki
 
 theme:
   name: material
+<<<<<<< HEAD
   favicon: Images/alpha-e-circle.svg
   icon:
     logo: material/alpha-e-circle
@@ -13,11 +14,17 @@ theme:
     accent: teal
   custom_dir: overrides
     
+=======
+  icon:
+    logo: material/alpha-e-circle
+    repo: fontawesome/brands/github-square
+>>>>>>> 1bafe1b4091330596907997256afd7ccc655d6a6
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+<<<<<<< HEAD
   - pymdownx.tabbed
   - attr_list
   - toc:
@@ -38,6 +45,14 @@ markdown_extensions:
 # Used when we've sorted out the css of the site. Several issues with dark on dark currently.
 #extra_css:
 #  - stylesheets/custom.css
+=======
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra_css:
+  - stylesheets/custom.css
+>>>>>>> 1bafe1b4091330596907997256afd7ccc655d6a6
 
 extra:
   social:
