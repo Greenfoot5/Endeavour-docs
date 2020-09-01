@@ -1,10 +1,6 @@
 # Welcome!
 
-<<<<<<< HEAD
 This is the documentation site for [@Endeavour#7425](https://discordbots.org/bot/436947191395909642)
-=======
-This is the documentation site for @Endeavour#7425
->>>>>>> 1bafe1b4091330596907997256afd7ccc655d6a6
 
 !!! danger "Site WIP"
     Endeavour is the rewrite of GreenBOT.
